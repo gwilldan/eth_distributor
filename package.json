@@ -1,0 +1,22 @@
+{
+	"name": "eth_distro",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"deploy": "node deploy/script",
+		"interact": "node interact/script"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"@nomicfoundation/hardhat-toolbox": "^5.0.0",
+		"dotenv": "^16.4.5",
+		"ethers": "^6.13.2"
+	},
+	"devDependencies": {
+		"@nomicfoundation/hardhat-verify": "^2.0.10",
+		"hardhat": "^2.22.10"
+	}
+}
